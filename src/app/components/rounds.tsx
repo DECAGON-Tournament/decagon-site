@@ -42,7 +42,7 @@ export default function Rounds() {
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4`}>Estimathon</h1>
             <div>
                 <p>
-                The Estimathon is a more fun and casual round involving the estimation of various interesting quantities. Teams have 30 minutes to work on a set of 13 estimation problems. Answers will be in interval form, and scores will be based on whether or not the interval contains the value, as well as the precision of the submitted interval. For more detailed rules, please read this. Every estimathon team will be composed of two team round teams.
+                The Estimathon is a more fun and casual round involving the estimation of various interesting quantities. Teams have 30 minutes to work on a set of 13 estimation problems. Answers will be in interval form, and scores will be based on whether or not the interval contains the value, as well as the precision of the submitted interval.
                 </p>
             </div>
         </div>
