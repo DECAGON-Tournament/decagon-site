@@ -18,4 +18,13 @@
 
 body {
   color: white;
+  @apply bg-slate-950;
+}
+
+a {
+  @apply text-sky-300 underline;
+}
+
+a:hover {
+  @apply text-sky-500;
 }

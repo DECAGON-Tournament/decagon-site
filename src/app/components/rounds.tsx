@@ -8,7 +8,7 @@ export default function Rounds() {
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 `}>Individual Round</h1>
             <div>
                 <p>Competitors will pick 2 of the following categories to compete in:</p>
-                <ul>
+                <ul className='ml-4 list-disc'>
                     <li>Algebra/Number Theory</li>
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>
@@ -33,7 +33,6 @@ export default function Rounds() {
             <div>
                 <p>
                 The top 4 competitors from each individual category will participate in a countdown round for that category. Competitors will compete head-to-head in this round. A problem will be displayed through a presentation, and the contestants will race to solve the problem (with pencil and paper). 
-                45 seconds are given to answer each question; the first person to buzz in their answer will receive a point if answered correctly. If their answer is incorrect, the other person will have the remaining time to attempt a correct answer. Competitors will compete in a best of 3 for the first round, and a best of 5 for the second round, with ties broken by sudden death. They will continue to move through a tournament until the order of the top 4 competitors is determined!
 
                 </p>
             </div>

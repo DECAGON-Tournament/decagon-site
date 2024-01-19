@@ -44,8 +44,8 @@ export default function Hero() {
         }
     }
 
-    return <main className="bg-sky-950 relative border-y-2 border-y-sky-300">
-        <canvas onResize={handleResize} ref={canvasRef} className="relative top-0 left-0  min-h-96 max-h-96 w-full"> </canvas>
+    return <main className="bg-sky-950 relative border-y-2 border-y-sky-300 min-h-96 overflow-hidden" style={{height: "66vh"}}>
+        <canvas onResize={handleResize} ref={canvasRef} className="relative top-0 left-0"> </canvas>
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-80 bg-slate-900 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
                 <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>DECAGON</h1>
