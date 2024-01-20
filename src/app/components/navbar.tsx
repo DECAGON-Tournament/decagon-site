@@ -7,9 +7,7 @@ export default function NavBar() {
         <span className={`${jbm.className} text-sky-300 text-2xl font-bold flex-1`}>DECAGON</span>
         
         <div className="flex flex-row gap-2 items-center">
-            <button> Link </button>    
-            <button> Link </button>    
-            <button> Link </button>    
+            <a className={`${jbm.className} btn-primary text-sm`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
         </div>
     </main>
 }

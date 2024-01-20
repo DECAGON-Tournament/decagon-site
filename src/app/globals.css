@@ -21,10 +21,26 @@ body {
   @apply bg-slate-950;
 }
 
-a {
+.link {
   @apply text-sky-300 underline;
 }
 
-a:hover {
+.link:hover {
   @apply text-sky-500;
+}
+
+.btn-primary {
+  @apply bg-sky-300 p-2 text-slate-900 rounded-sm flex items-center justify-center;
+}
+
+.btn-primary:hover {
+  @apply bg-sky-400;
+}
+
+.btn-secondary {
+  @apply rounded-sm text-slate-900 p-2 bg-slate-200 border-2 flex items-center justify-center;
+}
+
+.btn-secondary:hover {
+  @apply bg-slate-300;
 }

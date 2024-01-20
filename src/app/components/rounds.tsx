@@ -3,8 +3,8 @@ import { JetBrains_Mono } from 'next/font/google'
 const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
 export default function Rounds() {
-    return <main className='flex flex-col xl:flex-row px-8 gap-5 justify-between bg-slate-950'>
-        <div className='bg-slate-900 p-4 rounded-md border-2 border-sky-900 xl:max-w-80'>
+    return <main className='flex flex-col xl:flex-row px-8 pt-10 gap-5 justify-between bg-slate-950'>
+        <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Individual Round</h1>
             <div className='text-slate-200'>
                 <p>Competitors will pick 2 of the following categories to compete in:</p>
@@ -16,7 +16,7 @@ export default function Rounds() {
                 <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
             </div>
         </div>
-        <div className='bg-slate-900 p-4 rounded-md border-2 border-sky-900 xl:max-w-80'>
+        <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Team Round</h1>
             <div className='text-slate-200'>
                 <p>
@@ -28,7 +28,7 @@ export default function Rounds() {
                 </p>
             </div>
         </div>
-        <div className='bg-slate-900 p-4 rounded-md border-2 border-sky-900 xl:max-w-80'>
+        <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800  xl:flex-grow xl:basis-0'>
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Countdown Round</h1>
             <div className='text-slate-200'>
                 <p>
@@ -38,7 +38,7 @@ export default function Rounds() {
             </div>
         </div>
 
-        <div className='bg-slate-900 p-4 rounded-md border-2 border-sky-900 xl:max-w-80'>
+        <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Estimathon</h1>
             <div className='text-slate-200'>
                 <p>

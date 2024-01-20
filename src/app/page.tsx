@@ -1,6 +1,8 @@
 import About from './components/about'
 import Hero from './components/hero'
+import Prizes from './components/prizes'
 import Rounds from './components/rounds'
+import Team from './components/team'
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero></Hero>
       <About></About>
       <Rounds></Rounds>
+      <Prizes></Prizes>
+      <Team></Team>
     </main>
   )
 }
