@@ -22,7 +22,6 @@ export default function Schedule() {
                         <td>8:10 AM - 8:40 AM</td>
                         <td>Check-in</td>
                         <td>Front Doors</td>
-
                     </tr>
                     <tr>
                         <td>8:40 AM - 8:55 AM</td>
