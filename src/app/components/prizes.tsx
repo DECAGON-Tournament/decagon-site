@@ -22,7 +22,7 @@ export default function Prizes() {
         }
     ]
     
-    return <div className='flex flex-col md:flex-row bg-slate-950 p-8 gap-9 md:gap-9 items-top pt-20'>
+    return <div className='flex flex-col md:flex-row bg-slate-950 p-4 pt-16 md:p-8 gap-9 items-top md:pt-20'>
         <div className='grow border-b-sky-300 border-b-2'>
             <p className={`${jbm.className} text-slate-300 text-sm`}> -&gt; 02.</p>
             <h1 className={`${jbm.className} text-sky-300 text-5xl`}>Prizes</h1>

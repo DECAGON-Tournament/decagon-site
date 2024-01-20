@@ -44,3 +44,15 @@ body {
 .btn-secondary:hover {
   @apply bg-slate-300;
 }
+
+thead {
+  @apply bg-slate-800 text-sky-300 text-left;
+}
+
+th {
+  @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800;
+}
+
+td {
+  @apply p-1 md:p-3 border-2 text-slate-200 border-slate-800;
+}
