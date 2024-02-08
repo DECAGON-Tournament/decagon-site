@@ -10,7 +10,7 @@ export default function Hero() {
         window.addEventListener("resize", () => handleResize());
         handleResize()
         draw();
-    }, [])
+    }, [handleResize, draw])
 
     function handleResize() {
         console.log("resize!")

@@ -42,7 +42,7 @@ export default function Rounds() {
             <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Theme Round</h1>
             <div className='text-slate-200'>
                 <p>
-                The theme round is a more fun and casual round, and this year's theme will be revealed at the event.
+                The theme round is a more fun and casual round, and this year&apos;s theme will be revealed at the event.
                 </p>
             </div>
         </div>
