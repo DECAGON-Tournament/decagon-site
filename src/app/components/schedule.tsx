@@ -39,11 +39,11 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>12:00 PM - 1:00 PM</td>
-                        <td>Lunch + Estimathon Rules Explanation</td>
+                        <td>Lunch + Theme Round Rules Explanation</td>
                     </tr>
                     <tr>
                         <td>1:00 PM - 1:30 PM</td>
-                        <td>Theme (Estimathon) Round</td>
+                        <td>Theme Round</td>
                     </tr>
                     <tr>
                         <td>1:40 PM - 2:20 PM</td>

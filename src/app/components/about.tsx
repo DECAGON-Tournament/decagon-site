@@ -33,7 +33,7 @@ export default function About() {
             </p>
             <h1 className={`${jbm.className} text-sky-300 font-bold text-xl mt-4`}>Test Guidelines</h1>
             <p>
-            All answers should be in simplest form. The only permitted materials are pencils and paper. Participants must bring their own pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited. 
+            All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited. 
             </p>
         </div>
     </div>
