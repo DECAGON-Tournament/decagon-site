@@ -49,13 +49,12 @@ export default function Hero() {
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-80 bg-slate-900 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
                 <p className={`${jbm.className} text-slate-200 text-sm mb-1 ml-1`}>04/06/2023</p>
-                <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-1`}>DECAGON</h1>
-                <p className={`${jbm.className} text-sky-300 text-sm mb-4`}>(Deciphering Equations, Centennial and Glenelg&apos;s Operation in Numbers)</p>
-                <p className="text-sm md:text-base">Centennial National Math Honor Society&apos;s and Glenelg National Math Honor Society&apos;s annual math tournament!</p>
-                <p className={`${jbm.className} text-slate-400 text-xs`}>Registration is free and open until April 3, 2024, 11:59 PM.</p>
-                <div className="flex flex-row mt-4 gap-2">
+                <h1 className={`${jbm.className} text-6xl md:text-8xl font-bold mb-4`}>DECAGON</h1>
+                <p className="text-sm md:text-base ml-1">Centennial National Math Honor Society&apos;s and Glenelg National Math Honor Society&apos;s annual math tournament!</p>
+                <p className={`${jbm.className} text-slate-400 text-xs ml-1`}>Registration is free and open until April 3, 2024, 11:59 PM.</p>
+                <div className="flex flex-row mt-4 gap-2 ml-1">
                     <a className={`${jbm.className} btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
-                    <a className={`${jbm.className} btn-secondary`} href="mailto:chsnmhs@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
+                    <a className={`${jbm.className} btn-secondary`} href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
             </div>
         </div>

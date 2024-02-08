@@ -39,10 +39,10 @@ export default function Rounds() {
         </div>
 
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
-            <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Estimathon</h1>
+            <h1 className={`${jbm.className} text-lg text-sky-300 mb-4 font-bold`}>Theme Round</h1>
             <div className='text-slate-200'>
                 <p>
-                The Estimathon is a more fun and casual round involving the estimation of various interesting quantities. Teams have 30 minutes to work on a set of 13 estimation problems. Answers will be in interval form, and scores will be based on whether or not the interval contains the value, as well as the precision of the submitted interval.
+                The theme round is a more fun and casual round, and this year's theme will be revealed at the event.
                 </p>
             </div>
         </div>

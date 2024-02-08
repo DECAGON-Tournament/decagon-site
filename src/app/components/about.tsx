@@ -21,7 +21,7 @@ export default function About() {
             </p>
             <h1 className={`${jbm.className} text-sky-300 font-bold text-xl mt-4`}>Location</h1>
             <p>
-                This year, we will most be hosting at two locations: Centennial High School 
+                This year, we will be hosting at two locations: Centennial High School 
                 <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
                 and Glenelg High School 
                 <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/hD43XwYAafoT5kobA" target="_blank" rel="noopener noreferrer">(14025 Burntwoods Rd, Glenelg, MD 21737)</a>

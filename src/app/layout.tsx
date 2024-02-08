@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: 'DECAGON Tournament',
-  description: "The DECAGON tournament (Deciphering Equations, Centennial and Glenelg's Operation in Numbers)",
+  description: "Centennial National Math Honors Society's and Glenelg National Math Honors Society's annual math tournament",
 }
 
 export default function RootLayout({

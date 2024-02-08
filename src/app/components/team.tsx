@@ -4,7 +4,8 @@ const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
 export default function Team() {
     const centennial = [
-        "Ryan Zou", "Anurag Sodhi", "Caleb Shim", "Tanvi Gupta", "Olivia Roh"
+        "Ryan Zou", "Anurag Sodhi", "Caleb Shim", "Tanvi Gupta", "Olivia Roh",
+        "Rajiv Jonnala", "Jaden Li", "Martin Meister", "Albert Cao"
     ]
 
     const glenelg = [

@@ -6,7 +6,7 @@ export default function Prizes() {
     const prizes = [
         {
             winner: "Winning Teams/Individuals",
-            prize: "Trophies and AOPS Coupon"
+            prize: "Trophies"
         },
         {
             winner: "2nd & 3rd Place Individual",
@@ -18,7 +18,7 @@ export default function Prizes() {
         },
         {
             winner: "Others",
-            prize: "Honorable Mentions"
+            prize: "And More"
         }
     ]
     
@@ -35,8 +35,7 @@ export default function Prizes() {
                         <h1 className={`${jbm.className} text-sky-300 font-bold text-lg`}>0{i+1}.</h1>
                     </div>
                     <div>
-                        <span className='text-xs text-slate-300'>{prize.winner}</span>
-                        <h1 className={`${jbm.className} text-xl text-sky-300 font-extrabold`}>{prize.prize}!</h1>
+                        <h1 className={`${jbm.className} text-xl text-slate-300 font-extrabold`}>{prize.prize}!</h1>
                     </div>
                 </div>
             ))}
