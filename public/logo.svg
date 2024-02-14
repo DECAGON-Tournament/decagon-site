@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="174.76591mm"
+   height="55.870083mm"
+   viewBox="0 0 174.76591 55.870083"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.78867946"
+     inkscape:cx="334.73675"
+     inkscape:cy="68.468881"
+     inkscape:window-width="1440"
+     inkscape:window-height="803"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="16.468819"
+       y="236.55212"
+       width="634.7981"
+       height="242.54079"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4.5776368e-8,-72.191889)">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:0;stroke:#38bdf8;stroke-width:1.27;stroke-opacity:1"
+       id="path2"
+       inkscape:flatsided="true"
+       sodipodi:sides="10"
+       sodipodi:cx="57.834248"
+       sodipodi:cy="26.540375"
+       sodipodi:r1="28.512497"
+       sodipodi:r2="29.99264"
+       sodipodi:arg1="1.2503531"
+       sodipodi:arg2="1.5645124"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 66.815321,53.601469 49.193976,53.712202 34.872922,43.444221 29.322314,26.719545 34.662295,9.9264322 48.853174,-0.52071921 66.474519,-0.63145252 80.795573,9.6365287 86.346182,26.361205 81.0062,43.154317 Z"
+       transform="translate(14.909141,73.459625)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:0;stroke:#38bdf8;stroke-width:1.27;stroke-opacity:1"
+       id="path2-9"
+       inkscape:flatsided="true"
+       sodipodi:sides="10"
+       sodipodi:cx="57.834248"
+       sodipodi:cy="26.540375"
+       sodipodi:r1="28.512497"
+       sodipodi:r2="29.99264"
+       sodipodi:arg1="1.2503531"
+       sodipodi:arg2="1.5645124"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 66.815321,53.601469 49.193976,53.712202 34.872922,43.444221 29.322314,26.719545 34.662295,9.9264322 48.853174,-0.52071921 66.474519,-0.63145252 80.795573,9.6365287 86.346182,26.361205 81.0062,43.154317 Z"
+       transform="translate(43.73052,73.713487)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:50.8px;line-height:0;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Medium';letter-spacing:5.29167px;fill:#ffffff;stroke:#ffffff;stroke-width:1.27"
+       x="-2.6105578"
+       y="112.8764"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2778px;line-height:0;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:5.29167px;stroke-width:1.27"
+         x="-2.6105578"
+         y="112.8764">DE<tspan
+   id="tspan4"
+   style="letter-spacing:5.29167px">CAG</tspan>ON</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2777px;line-height:0;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:2.11138px;fill:#ffffff;fill-opacity:1;stroke:#f8f8f8;stroke-width:1.27;stroke-opacity:1"
+       x="2.6414793"
+       y="161.39438"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#ffffff;fill-opacity:1;stroke:#f8f8f8;stroke-width:1.27;stroke-opacity:1"
+         x="2.6414793"
+         y="161.39438" /></text>
+  </g>
+</svg>
