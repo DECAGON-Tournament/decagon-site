@@ -8,7 +8,7 @@ export default function NavBar() {
         <Image src="/logo.svg" height={10} width={10} alt="DECAGON Logo" className="h-8 w-auto"/>
         <div className="flex-1"></div>
         <div className="flex flex-row gap-2 items-center">
-            <a className={`${jbm.className} btn-primary text-sm`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
+            <a className={`font-mono btn-primary text-sm`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
         </div>
     </main>
 }
