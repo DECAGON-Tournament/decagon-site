@@ -11,6 +11,31 @@ export default function Rounds() {
                 </ul>
                 <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
             </div>
+            <hr className="border border-slate-700 my-2" />
+            <div>
+                <h2 className="text-lg italic"> Algebra Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Leo Su</li>
+                    <li>Jayden Tom</li>
+                    <li>Donald Zhuang</li>
+                </ol>
+            </div>
+            <div>
+                <h2 className="text-lg italic"> Geometry Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Andrew Zhong</li>
+                    <li>Marco Gomes</li>
+                    <li>Andrew Ying</li>
+                </ol>
+            </div>
+            <div>
+                <h2 className="text-lg italic"> Combinatorics Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Leo Su</li>
+                    <li>Donald Zhuang</li>
+                    <li>Bowen Ren</li>
+                </ol>
+            </div>
         </div>
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Team Round</h1>
@@ -22,6 +47,15 @@ export default function Rounds() {
                     The test will be 10 questions and 30 minutes long.
                     The team score will be calculated by adding twice the team round score to four times the average score on all tests of all members (as some teams have fewer than 4 people).
                 </p>
+            </div>
+            <hr className="border border-slate-700 my-2" />
+            <div>
+                <h2 className="text-lg italic"> Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Team 11</li>
+                    <li>Team 2</li>
+                    <li>Team 3</li>
+                </ol>
             </div>
         </div>
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800  xl:flex-grow xl:basis-0'>
@@ -40,6 +74,15 @@ export default function Rounds() {
                 <p>
                     The theme round is a more fun and casual round, and this year&apos;s theme will be revealed at the event.
                 </p>
+            </div>
+            <hr className="border border-slate-700 my-2" />
+            <div>
+                <h2 className="text-lg italic"> Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Team 6</li>
+                    <li>Team 3</li>
+                    <li>Team 4</li>
+                </ol>
             </div>
         </div>
     </main>
