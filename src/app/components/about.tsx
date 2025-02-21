@@ -20,21 +20,22 @@ export default function About() {
                 Students of all grades may register for free. If you plan to form a team with people you already know, please list the members of your team. If you register as an individual, we will place you on a team for the team round, so don’t worry!
             </p>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Location</h1>
-            <p>
-                This year, we will be hosting at two locations: Centennial High School
-                <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a>
-                and Glenelg High School
-                <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/hD43XwYAafoT5kobA" target="_blank" rel="noopener noreferrer">(14025 Burntwoods Rd, Glenelg, MD 21737)</a>
-
-            </p>
+            <p>We will be hosting at two locations:</p>
+            <ul className='ml-5 list-disc my-2'>
+                    <li>Centennial High School <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/vRjrU1QYevxyWkRS8" target="_blank" rel="noopener noreferrer">(4300 Centennial Lane, Ellicott City, MD, 21042)</a> - Advanced Division</li>
+                    <li>Glenelg High School <a className="link mx-1 text-sky-50" href="https://maps.app.goo.gl/hD43XwYAafoT5kobA" target="_blank" rel="noopener noreferrer">(14025 Burntwoods Rd, Glenelg, MD 21737)</a> - Beginner Division</li>
+                </ul>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Lunch</h1>
             <p>
-                <span className='font-bold'>Lunch is free at Glenelg!</span> Lunch can be purchased for cash at Centennial. We will be serving cheese and pepperoni pizza.
+                Lunch is free at both locations! We will be serving cheese and pepperoni pizza.
             </p>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Test Guidelines</h1>
             <p>
-                All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited.
+                All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited. If you want to practice using past problems, check out the links below!
             </p>
+            <div className="flex flex-row mt-2 gap-2">
+                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1BlJLLr1IBxH8IXzaZcnZw0ABs-K3rMog?usp=sharing" target="_blank" rel="noopener noreferrer">2023-2024</a>
+            </div>
         </div>
     </div>
 }

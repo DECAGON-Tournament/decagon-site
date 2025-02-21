@@ -4,14 +4,14 @@ export default function Rounds() {
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Individual Round</h1>
             <div className='text-slate-200'>
                 <p>Competitors will pick 2 of the following categories to compete in:</p>
-                <ul className='ml-4 list-disc my-2'>
+                <ul className='ml-5 list-disc my-2'>
                     <li>Algebra/Number Theory</li>
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>
                 </ul>
                 <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
             </div>
-            <hr className="border border-slate-700 my-2" />
+            {/* <hr className="border border-slate-700 my-2" />
             <div>
                 <h2 className="text-lg italic"> Algebra Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
@@ -35,7 +35,7 @@ export default function Rounds() {
                     <li>Donald Zhuang</li>
                     <li>Bowen Ren</li>
                 </ol>
-            </div>
+            </div> */}
         </div>
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Team Round</h1>
@@ -48,7 +48,7 @@ export default function Rounds() {
                     The team score will be calculated by adding twice the team round score to four times the average score on all tests of all members (as some teams have fewer than 4 people).
                 </p>
             </div>
-            <hr className="border border-slate-700 my-2" />
+            {/* <hr className="border border-slate-700 my-2" />
             <div>
                 <h2 className="text-lg italic"> Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
@@ -56,7 +56,7 @@ export default function Rounds() {
                     <li>Team 2</li>
                     <li>Team 3</li>
                 </ol>
-            </div>
+            </div> */}
         </div>
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800  xl:flex-grow xl:basis-0'>
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Countdown Round</h1>
@@ -75,7 +75,7 @@ export default function Rounds() {
                     The theme round is a more fun and casual round, and this year&apos;s theme will be revealed at the event.
                 </p>
             </div>
-            <hr className="border border-slate-700 my-2" />
+            {/* <hr className="border border-slate-700 my-2" />
             <div>
                 <h2 className="text-lg italic"> Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
@@ -83,7 +83,7 @@ export default function Rounds() {
                     <li>Team 3</li>
                     <li>Team 4</li>
                 </ol>
-            </div>
+            </div> */}
         </div>
     </main>
 }

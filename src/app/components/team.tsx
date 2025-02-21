@@ -4,12 +4,13 @@ const jbm = JetBrains_Mono({ subsets: ["latin"], style: ["normal"] })
 
 export default function Team() {
     const centennial = [
-        "Ryan Zou", "Anurag Sodhi", "Caleb Shim", "Tanvi Gupta", "Olivia Roh",
-        "Rajiv Jonnala", "Jaden Li", "Martin Meister", "Albert Cao"
+        "Albert Cao", "Tanvi Gupta", "Martin Meister", "Jaden Li", "Sophie Zhang",
+        "Barry Chen", "Nicholas Cui", "Aryan Sharma", "Joshua Oh", "Ethan Burgoon", "Nathan Lu", "Joe Li"
     ]
 
     const glenelg = [
-        "Iris Xu", "Tristan Tsang"
+        "Samuel Yoon", "Sai Challagundla", "Zenia Haroon", "Riya Gangabathina", "Sanjay Mavalli",
+        "Alex Chen", "Steven Wang", "Jeffrey Wu"
     ]
 
     return <div className='flex flex-col md:flex-row bg-slate-950 p-4 pt-16 md:p-8 gap-9 md:gap-9 items-top md:pt-20'>

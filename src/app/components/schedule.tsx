@@ -18,6 +18,10 @@ export default function Schedule() {
                 </thead>
                 <tbody>
                     <tr>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                    {/* <tr>
                         <td>8:10 AM - 8:40 AM</td>
                         <td>Check-in</td>
                     </tr>
@@ -52,7 +56,7 @@ export default function Schedule() {
                     <tr>
                         <td>2:20 PM - 2:30 PM</td>
                         <td>Awards</td>
-                    </tr>
+                    </tr> */}
                 </tbody>
             </table>
         </div>
