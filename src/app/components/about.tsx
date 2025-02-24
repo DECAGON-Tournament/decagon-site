@@ -31,8 +31,9 @@ export default function About() {
             </p>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Test Guidelines</h1>
             <p>
-                All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited. If you want to practice using past problems, check out the links below!
+                All answers should be in simplest form. The only permitted materials are pencils and paper. Computational aids, including but not limited to calculators, rulers, protractors, and graph paper are strictly prohibited.
             </p>
+            <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Past Problems</h1>
             <div className="flex flex-row mt-2 gap-2">
                 <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1BlJLLr1IBxH8IXzaZcnZw0ABs-K3rMog?usp=sharing" target="_blank" rel="noopener noreferrer">2023-2024</a>
             </div>

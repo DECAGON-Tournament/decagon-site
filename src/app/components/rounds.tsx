@@ -5,6 +5,7 @@ export default function Rounds() {
             <div className='text-slate-200'>
                 <p>Competitors will pick 2 of the following categories to compete in:</p>
                 <ul className='ml-5 list-disc my-2'>
+                    <li>General</li>
                     <li>Algebra/Number Theory</li>
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>

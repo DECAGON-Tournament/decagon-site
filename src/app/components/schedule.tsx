@@ -18,45 +18,41 @@ export default function Schedule() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>TBD</td>
-                        <td>TBD</td>
-                    </tr>
-                    {/* <tr>
-                        <td>8:10 AM - 8:40 AM</td>
+                        <td>8:30 AM - 9:00 AM</td>
                         <td>Check-in</td>
                     </tr>
                     <tr>
-                        <td>8:40 AM - 8:55 AM</td>
+                        <td>9:00 AM - 9:20 AM</td>
                         <td>Opening Ceremony</td>
                     </tr>
                     <tr>
-                        <td>9:05 AM - 10:05 AM</td>
-                        <td>Individual Round 1</td>
+                        <td>9:25 AM - 10:20 AM</td>
+                        <td>Individual Round 1 (Algebra/Geometry)</td>
                     </tr>
                     <tr>
-                        <td>10:15 AM - 11:15 AM</td>
-                        <td>Individual Round 2</td>
+                        <td>10:25 AM - 11:20 AM</td>
+                        <td>Individual Round 2 (General/Combinatorics/Number Theory)</td>
                     </tr>
                     <tr>
-                        <td>11:25 AM - 11:55 AM</td>
+                        <td>11:25 AM - 12:00 PM</td>
                         <td>Team Round</td>
                     </tr>
                     <tr>
-                        <td>12:00 PM - 1:00 PM</td>
-                        <td>Lunch + Theme Round Rules Explanation</td>
+                        <td>12:05 PM - 12:50 PM</td>
+                        <td>Lunch</td>
                     </tr>
                     <tr>
-                        <td>1:00 PM - 1:30 PM</td>
+                        <td>12:55 PM - 1:30 PM</td>
                         <td>Theme Round</td>
                     </tr>
                     <tr>
-                        <td>1:40 PM - 2:20 PM</td>
+                        <td>1:35 PM - 2:20 PM</td>
                         <td>Countdown Round</td>
                     </tr>
                     <tr>
-                        <td>2:20 PM - 2:30 PM</td>
+                        <td>2:15 PM - 2:40 PM</td>
                         <td>Awards</td>
-                    </tr> */}
+                    </tr>
                 </tbody>
             </table>
         </div>
