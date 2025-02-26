@@ -56,7 +56,7 @@ export default function Hero() {
                 <p className="text-sm md:text-base text-sky-300 font-bold">Centennial and Glenelg Math Tournament</p>
                 <p className={`font-mono text-slate-400 text-xs`}>Registration is free and open until April 2, 2025, 11:59 PM.</p>
                 <div className="flex flex-row mt-4 gap-2">
-                    <a className={`font-mono btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSeeC-h3OTe2GSN3e6pkJ3feinun5dQy8oQoBhUwVXs5WFh2Rg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register</a>
+                    <a className={`font-mono btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSftBT9XtvrpFJcUUSwQiNTM8egGTcK94wbBoC6L5pliici7pA/viewform?usp=header" target="_blank" rel="noopener noreferrer">Register</a>
                     <a className={`font-mono btn-secondary`} href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
             </div>
