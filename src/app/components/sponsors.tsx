@@ -10,8 +10,11 @@ export default function Sponsors() {
           <h1 className={`font-mono text-lg`}>Sponsors</h1>
         </div>
         <div className="flex flex-row flex-wrap items-center p-4 gap-8">
-          <a href="https://www.janestreet.com/" className="bg-slate-800 rounded-lg p-4" target='_blank'>
+          <a href="https://www.janestreet.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/jane-street.png" className='h-24' alt="Jane Street Logo" />
+          </a>
+          <a href="https://www.artofproblemsolving.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/aops.png" className='h-24' alt="Art of Problem Solving Logo" />
           </a>
           <p className="text-lg">
             Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="prospectus.pdf" download="decagon_prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
