@@ -46,7 +46,7 @@ export default function Schedule() {
                         <td>Theme Round</td>
                     </tr>
                     <tr>
-                        <td>1:35 PM - 2:20 PM</td>
+                        <td>1:35 PM - 2:10 PM</td>
                         <td>Countdown Round</td>
                     </tr>
                     <tr>
