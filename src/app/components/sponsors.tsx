@@ -22,6 +22,12 @@ export default function Sponsors() {
           <a href="https://www.wegmans.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/wegmans.png" className='h-24' alt="Wegmans Logo" />
           </a>
+          <a href="https://www.idtech.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/idtech.png" className='h-24' alt="iD Tech Logo" />
+          </a>
+          <a href="https://www.bbmc-math.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/bbmc.png" className='h-24' alt="BBMC Math Logo" />
+          </a>
           <p className="text-lg">
             Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="prospectus.pdf" download="decagon_prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
           </p>
