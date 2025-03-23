@@ -26,7 +26,7 @@ export default function Prizes() {
         <div className='grow border-b-sky-300 border-b-2'>
             <p className={`font-mono text-slate-300 text-sm`}> -&gt; 02.</p>
             <h1 className={`font-mono text-sky-300 text-5xl`}>Prizes</h1>
-            <p className='text-sm text-slate-300 mt-2 mb-4'>Full results will be announced after the tournament</p>
+            <p className='text-md text-slate-300 mt-2 mb-4'>Over $1000 in prizes!</p>
         </div>
         <div className='w-full md:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-2'>
             {prizes.map((prize, i) => (
