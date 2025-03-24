@@ -27,11 +27,11 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>9:25 AM - 10:20 AM</td>
-                        <td>Individual Round 1 (Algebra/Geometry)</td>
+                        <td>Individual Round 1</td>
                     </tr>
                     <tr>
                         <td>10:25 AM - 11:20 AM</td>
-                        <td>Individual Round 2 (General/Combinatorics/Number Theory)</td>
+                        <td>Individual Round 2</td>
                     </tr>
                     <tr>
                         <td>11:25 AM - 12:00 PM</td>
