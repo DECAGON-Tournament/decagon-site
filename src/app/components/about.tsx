@@ -37,8 +37,9 @@ export default function About() {
             <p>
                 Check out some of our rounds from previous years to get used to the format and difficulty!
             </p>
-            <div className="flex flex-row mt-2 gap-2">
-                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1BlJLLr1IBxH8IXzaZcnZw0ABs-K3rMog?usp=sharing" target="_blank" rel="noopener noreferrer">2023-2024</a>
+            <div className="flex flex-row mt-2 gap-3">
+                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1BlJLLr1IBxH8IXzaZcnZw0ABs-K3rMog?usp=sharing" target="_blank" rel="noopener noreferrer">2024</a>
+                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1r6tFzyHF4kIgz1fZs1QV5BpvPnn4eo7v?usp=sharing" target="_blank" rel="noopener noreferrer">2025</a>
             </div>
         </div>
     </div>
