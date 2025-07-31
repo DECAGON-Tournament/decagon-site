@@ -38,7 +38,7 @@ export default function Sponsors() {
             <img src="sponsors/pyoneers.png" className='h-24' alt="Pyoneers Logo" />
           </a>
           <p className="text-lg">
-            Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="prospectus.pdf" download="decagon_prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
+            Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="Decagon_2026_Prospectus.pdf" download="decagon_2026_prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
           </p>
         </div>
       </div>
