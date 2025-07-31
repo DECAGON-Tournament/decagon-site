@@ -11,7 +11,7 @@ export default function About() {
         <div className='w-full md:w-2/3 flex flex-col gap-1'>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl`}>What is DECAGON?</h1>
             <p>
-                The Centennial National Math Honor Society is partnering this year with the Glenelg National Math Honor Society to host the new DECAGON Tournament, a continuation of the annual CHS Mu Alpha Theta Tournament! <span className="font-bold"> All levels of math competition experience are welcome. </span>
+                The Centennial National Math Honor Society is partnering this year with the Glenelg National Math Honor Society to host the new DECAGON Tournament, a continuation of the annual CHS Mu Alpha Theta Tournament! <span className="font-bold"> All levels of math competition experience are welcome!!! </span>
             </p>
             <p>
                 The tournament is a great way for competitors to test their math skills in a fun, low-stress competition.
