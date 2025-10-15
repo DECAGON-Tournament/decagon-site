@@ -50,11 +50,11 @@ export default function Hero() {
         <canvas onResize={handleResize} ref={canvasRef} className="relative top-0 left-0"> </canvas>
         <div className="flex flex-row items-center z-20 absolute top-0 left-0 w-full h-full p-8 bg-opacity-80 bg-slate-900 md:bg-opacity-100 md:bg-transparent md:bg-gradient-to-l md:via-90% md:via-slate-900 md:from-transparent md:to-slate-900">
             <div className="md:w-1/2 w-full">
-                <p className={`font-mono text-slate-200 text-sm mb-1`}>04/05/2025</p>
+                <p className={`font-mono text-slate-200 text-sm mb-1`}>04/11/2026</p>
                 <Image alt="DECAGON Logo" src={"/logo.svg"} width={200} height={100} className="max-h-24 w-auto md:max-h-36 mb-2" />
                 {/* <h1 className={`font-mono text-6xl md:text-8xl font-bold mb-4`}>DECAGON</h1> */}
                 <p className="text-sm md:text-base text-sky-300 font-bold">Centennial and Glenelg Math Tournament</p>
-                <p className={`font-mono text-slate-400 text-xs`}>Registration is free and open until April 2, 2025, 11:59 PM.</p>
+                <p className={`font-mono text-slate-400 text-xs`}>Registration is free and open until April 8, 2026, 11:59 PM.</p>
                 <div className="flex flex-row mt-4 gap-2">
                     <a className={`font-mono btn-primary`} href="https://docs.google.com/forms/d/e/1FAIpQLSftBT9XtvrpFJcUUSwQiNTM8egGTcK94wbBoC6L5pliici7pA/viewform?usp=header" target="_blank" rel="noopener noreferrer">Register</a>
                     <a className={`font-mono btn-secondary`} href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
