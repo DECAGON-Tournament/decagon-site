@@ -19,6 +19,10 @@ export default function Sponsors() {
           <a href="https://www.hudsonrivertrading.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/hrt.png" className='h-24' alt="Hudson River Trading Logo" />
           </a>
+          <a href="https://dailyintegral.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/dailyintegral.png" className='h-24' alt="Daily Integral Logo" />
+          </a>
+          {/*
           <a href="https://www.wegmans.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/wegmans.png" className='h-24' alt="Wegmans Logo" />
           </a>
@@ -34,6 +38,7 @@ export default function Sponsors() {
           <a href="https://www.mathworks.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/mathworks.png" className='h-24' alt="Mathworks Logo" />
           </a>
+          */}
           <a href="https://www.chspyoneers.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/pyoneers.png" className='h-24' alt="Pyoneers Logo" />
           </a>

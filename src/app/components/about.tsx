@@ -1,4 +1,5 @@
 import { JetBrains_Mono } from 'next/font/google'
+import Link from 'next/link'
 
 const jbm = JetBrains_Mono({ subsets: ["latin"], style: ["normal"] })
 
@@ -35,11 +36,10 @@ export default function About() {
             </p>
             <h1 className={`font-mono text-sky-300 font-bold text-2xl mt-4`}>Past Problems</h1>
             <p>
-                Check out some of our rounds from previous years to get used to the format and difficulty!
+                Check out some of our rounds from previous years to get used to the format and difficulty on our <Link className="link text-sky-50" href="/archive">Archive</Link> Page!
             </p>
             <div className="flex flex-row mt-2 gap-3">
-                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1BlJLLr1IBxH8IXzaZcnZw0ABs-K3rMog?usp=sharing" target="_blank" rel="noopener noreferrer">2024</a>
-                <a className={`font-mono btn-primary`} href="https://drive.google.com/drive/folders/1r6tFzyHF4kIgz1fZs1QV5BpvPnn4eo7v?usp=sharing" target="_blank" rel="noopener noreferrer">2025</a>
+                <Link className={`font-mono btn-primary`} href="/archive">Archive</Link>
             </div>
         </div>
     </div>

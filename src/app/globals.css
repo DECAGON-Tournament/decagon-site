@@ -37,6 +37,14 @@ body {
   @apply bg-sky-400;
 }
 
+.btn-outline {
+  @apply border border-white text-white bg-transparent p-2 rounded-sm flex items-center justify-center;
+}
+
+.btn-outline:hover {
+  @apply bg-sky-400 text-slate-900 border-transparent;
+}
+
 .btn-secondary {
   @apply rounded-sm text-slate-900 p-2 bg-slate-200 border-2 flex items-center justify-center;
 }
