@@ -70,7 +70,7 @@ export default function Rounds() {
         </div>
 
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
-            <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Theme Round</h1>
+            <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Guts Round</h1>
             <div className='text-slate-200'>
                 <p>
                     The guts round is a team round where teams work together on sets of increasingly difficult problems with a scoreboard updated in real time.
