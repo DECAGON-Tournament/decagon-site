@@ -10,7 +10,7 @@ export default function Rounds() {
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>
                 </ul>
-                <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
+                <p>Each test will be 10 questions long. Competitors will have 40 minutes to complete each test.</p>
             </div>
             {/* <hr className="border border-slate-700 my-2" />
             <div>
@@ -73,7 +73,7 @@ export default function Rounds() {
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Theme Round</h1>
             <div className='text-slate-200'>
                 <p>
-                    The theme round is a more fun and casual round, and this year&apos;s theme will be revealed at the event.
+                    The guts round is a team round where teams work together on sets of increasingly difficult problems with a scoreboard updated in real time.
                 </p>
             </div>
             {/* <hr className="border border-slate-700 my-2" />
