@@ -73,7 +73,7 @@ export default function Rounds() {
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Guts Round</h1>
             <div className='text-slate-200'>
                 <p>
-                    The guts round is a 45-minute team round with the same teams as the team round. Teams will work on 5 sets of increasingly difficult problems with four problems per set. The guts round will have a scoreboard of the teams updated in real time.
+                    The guts round is a 45-minute team round with the same teams as the team round. Teams will work on 5 sets of increasingly difficult problems with 4 problems per set. At the starting signal, each team sends a runner to an assigned problem station to pick up copies of the first set of problems for each team member. As soon as a team has answers for one problem set, the runner may bring the answers to the problem station and pick up the next set. The guts round will have a scoreboard of the teams updated in real time.
                 </p>
             </div>
             {/* <hr className="border border-slate-700 my-2" />
