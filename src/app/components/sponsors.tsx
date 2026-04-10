@@ -22,16 +22,16 @@ export default function Sponsors() {
           <a href="https://dailyintegral.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/dailyintegral.png" className='h-24' alt="Daily Integral Logo" />
           </a>
-          {/*
           <a href="https://www.wegmans.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/wegmans.png" className='h-24' alt="Wegmans Logo" />
-          </a>
-          <a href="https://www.idtech.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
-            <img src="sponsors/idtech.png" className='h-24' alt="iD Tech Logo" />
           </a>
           <a href="https://www.bbmc-math.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/bbmc.png" className='h-24' alt="BBMC Math Logo" />
           </a>
+          <a href="https://www.idtech.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/idtech.png" className='h-24' alt="iD Tech Logo" />
+          </a>
+          {/*
           <a href="https://www.fiverings.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/fiverings.png" className='h-24' alt="Five Rings Logo" />
           </a>
