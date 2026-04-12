@@ -10,7 +10,6 @@ export default function Photos() {
             <h1 className={`font-mono text-lg`}>2026</h1>
           </div>
           <div className="flex flex-row flex-wrap items-center p-4 gap-8">
-            <img src="photos/2026%20Pictures/PXL_20260411_191258346.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_191219749.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_191039879.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_190957192.jpg" className='h-60' alt="DECAGON 2026 Photo" />
