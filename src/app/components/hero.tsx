@@ -1,38 +1,16 @@
 "use client"
-import { JetBrains_Mono } from "next/font/google"
-import { createRef, useCallback, useEffect, useRef } from "react"
+import { useCallback, useEffect, useRef } from "react"
 import Image from "next/image"
-
-const jbm = JetBrains_Mono({ subsets: ["latin"] })
 
 export default function Hero() {
     const canvasRef = useRef<HTMLCanvasElement>(null)
-    const resizeCall = useCallback(handleResize, [draw]);
-    const drawCall = useCallback(draw, [canvasRef])
-    useEffect(() => {
-        window.addEventListener("resize", () => resizeCall());
-        resizeCall()
-        //draw();
-    }, [resizeCall])
 
-    function handleResize() {
-        console.log("resize!")
-        if (canvasRef.current) {
-            const parent = canvasRef.current.parentElement;
-
-            if (parent) {
-                const rect = parent.getBoundingClientRect()
-                canvasRef.current.width = rect.width;
-                canvasRef.current.height = rect.height;
-            }
-        }
-        drawCall()
-    }
-
-    function draw() {
+    const draw = useCallback(() => {
         const canvas = canvasRef.current;
         if (canvas) {
             const context = canvas.getContext("2d");
+            context!.setTransform(1, 0, 0, 1, 0, 0);
+            context!.clearRect(0, 0, canvas.width, canvas.height);
             context!.strokeStyle = "#00b7ff"
 
             context!.translate(canvas.width * 1.5, canvas.height / 2);
@@ -44,7 +22,26 @@ export default function Hero() {
                 context!.lineWidth = 75 / i;
             }
         }
-    }
+    }, [canvasRef])
+
+    const handleResize = useCallback(() => {
+        if (canvasRef.current) {
+            const parent = canvasRef.current.parentElement;
+
+            if (parent) {
+                const rect = parent.getBoundingClientRect()
+                canvasRef.current.width = rect.width;
+                canvasRef.current.height = rect.height;
+            }
+        }
+        draw()
+    }, [draw])
+
+    useEffect(() => {
+        handleResize()
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, [handleResize])
 
     return <main className="bg-sky-950 relative border-y-2 border-y-sky-900 min-h-96 overflow-hidden" style={{ height: "66vh" }}>
         <canvas onResize={handleResize} ref={canvasRef} className="relative top-0 left-0"> </canvas>
