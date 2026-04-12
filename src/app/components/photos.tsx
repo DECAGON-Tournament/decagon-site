@@ -7,21 +7,10 @@ export default function Photos() {
       <div className='w-full md:w-2/3 flex flex-col gap-5'>
         <div className="flex flex-col border-2 border-gray-600">
           <div className="p-4 bg-gray-600 text-slate-200">
-            <h1 className={`font-mono text-lg`}>2025</h1>
+            <h1 className={`font-mono text-lg`}>2026</h1>
           </div>
           <div className="flex flex-row flex-wrap items-center p-4 gap-8">
-            <img src="photos/IMG_2202.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2203.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2204.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2205.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2207.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2208.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2209.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_1752.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2165.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2169.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_2180.jpg" className='h-60' alt="DECAGON 2025 Photo" />
-            <img src="photos/IMG_9073.jpg" className='h-60' alt="DECAGON 2025 Photo" />
+            <p className="font-mono text-slate-400 text-sm">Photos coming soon.</p>
           </div>
         </div>
       </div>

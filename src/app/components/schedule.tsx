@@ -26,24 +26,24 @@ export default function Schedule() {
                         <td>Opening Ceremony</td>
                     </tr>
                     <tr>
-                        <td>9:25 AM - 10:10 AM</td>
+                        <td>9:25 AM - 10:20 AM</td>
                         <td>Individual Round 1</td>
                     </tr>
                     <tr>
-                        <td>10:15 AM - 11:00 AM</td>
+                        <td>10:25 AM - 11:20 AM</td>
                         <td>Individual Round 2</td>
                     </tr>
                     <tr>
-                        <td>11:05 AM - 11:50 PM</td>
+                        <td>11:25 AM - 12:00 PM</td>
                         <td>Team Round</td>
                     </tr>
                     <tr>
-                        <td>11:55 PM - 12:40 PM</td>
+                        <td>12:05 PM - 12:50 PM</td>
                         <td>Lunch</td>
                     </tr>
                     <tr>
-                        <td>12:45 PM - 1:30 PM</td>
-                        <td>Guts Round</td>
+                        <td>12:55 PM - 1:30 PM</td>
+                        <td>Theme Round</td>
                     </tr>
                     <tr>
                         <td>1:35 PM - 2:10 PM</td>

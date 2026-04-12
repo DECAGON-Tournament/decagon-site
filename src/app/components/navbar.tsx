@@ -6,7 +6,7 @@ const jbm = JetBrains_Mono({ subsets: ["latin"] })
 
 export default function NavBar() {
     return (
-        <main className="bg-slate-950 p-2 flex flex-row items-center">
+        <main className="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-sm p-2 flex flex-row items-center">
             <Link href="/">
                 <Image src="/logo.svg" height={10} width={10} alt="DECAGON Logo" className="h-8 w-auto"/>
             </Link>

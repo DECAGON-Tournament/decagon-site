@@ -37,6 +37,7 @@ const Archive = () => {
                     You can access the past problems through the links below. We encourage all participants to review these problems and use them as a resource for their preparation. Good luck, and we look forward to seeing you at the tournament!
                 </p>
                 <div className="flex flex-row mt-2 gap-3">
+                <Link className={`font-mono btn-primary`} href="/2026-problems">2026</Link>
                 <Link className={`font-mono btn-primary`} href="/2025-problems">2025</Link>
                 <Link className={`font-mono btn-primary`} href="/2024-problems">2024</Link>
                 </div>
@@ -50,10 +51,32 @@ const Archive = () => {
                 <p className={`font-mono text-slate-300 text-sm`}> -&gt; 01.</p>
                 <h1 className={`font-mono text-sky-300 text-5xl`}>Past Organizers </h1>
             </div>
-            <div className='w-full md:w-2/3 flex flex-col gap-4'>
+            <div className='w-full md:w-2/3 flex flex-col gap-6'>
+                <h1 className={`font-mono text-sky-300 font-bold text-2xl`}>2026 Team</h1>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+                    <div className='border border-slate-800 rounded-md bg-slate-900 p-3 text-sm'>
+                        <h2 className={`font-mono text-sky-300 text-base font-semibold`}>Centennial Organizers</h2>
+                        <p className='text-slate-300 mt-2'>
+                            {[
+                                "Joe Li", "Albert Cao", "Ethan Burgoon", "Sophia Liang", "Jackie Gao",
+                                "Kaity Paul", "Avery Chang", "Esha Hegde", "Nathan Lu", "Joshua Oh",
+                                "Elise Palabrica", "Lyra Su", "Dhruv Veda", "Jeremy Yang"
+                            ].join(', ')}
+                        </p>
+                    </div>
+                    <div className='border border-slate-800 rounded-md bg-slate-900 p-3 text-sm'>
+                        <h2 className={`font-mono text-sky-300 text-base font-semibold`}>Glenelg Organizers</h2>
+                        <p className='text-slate-300 mt-2'>
+                            {[
+                                "Sanjay Mavalli", "Caleb Lease", "Luke Gannon", "Joshua Kim",
+                                "Alex Chen", "Jeffrey Wu", "Steven Wang"
+                            ].join(', ')}
+                        </p>
+                    </div>
+                </div>
+
                 <h1 className={`font-mono text-sky-300 font-bold text-2xl`}>2025 Team</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-                    {/* Compact organizers block (smaller than home page) */}
                     <div className='border border-slate-800 rounded-md bg-slate-900 p-3 text-sm'>
                         <h2 className={`font-mono text-sky-300 text-base font-semibold`}>Centennial Organizers</h2>
                         <p className='text-slate-300 mt-2'>
@@ -63,7 +86,6 @@ const Archive = () => {
                             ].join(', ')}
                         </p>
                     </div>
-
                     <div className='border border-slate-800 rounded-md bg-slate-900 p-3 text-sm'>
                         <h2 className={`font-mono text-sky-300 text-base font-semibold`}>Glenelg Organizers</h2>
                         <p className='text-slate-300 mt-2'>
@@ -85,6 +107,16 @@ const Archive = () => {
                 <h1 className={`font-mono text-sky-300 text-5xl`}>Past Photos</h1>
             </div>
             <div className='w-full md:w-2/3 flex flex-col gap-5'>
+                <div className="flex flex-col border-2 border-gray-600">
+                    <div className="p-4 bg-gray-600 text-slate-200">
+                        <h1 className={`font-mono text-lg`}>2026</h1>
+                    </div>
+                    <div className="flex flex-row flex-wrap items-center p-4 gap-8">
+                        {/* Add 2026 photos here — place image files in public/photos/ and reference them like: */}
+                        {/* <img src="photos/YOUR_FILE.jpg" className='h-60' alt="DECAGON 2026 Photo" /> */}
+                        <p className="font-mono text-slate-400 text-sm">Photos coming soon.</p>
+                    </div>
+                </div>
                 <div className="flex flex-col border-2 border-gray-600">
                     <div className="p-4 bg-gray-600 text-slate-200">
                         <h1 className={`font-mono text-lg`}>2025</h1>

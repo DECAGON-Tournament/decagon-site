@@ -9,7 +9,7 @@ export default function Team() {
     ]
 
     const glenelg = [
-        "Sanjay Mavalli", "Caleb Lease", "Luke Gannon", "Joshua Kim", "Alex Chen", "Jeffrey Wu", "Steven Wang", "Riya Gangabathina"
+        "Sanjay Mavalli", "Caleb Lease", "Luke Gannon", "Joshua Kim", "Alex Chen", "Jeffrey Wu", "Steven Wang"
     ]
 
     return <div className='flex flex-col md:flex-row bg-slate-950 p-4 pt-16 md:p-8 gap-9 md:gap-9 items-top md:pt-20'>
