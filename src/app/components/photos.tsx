@@ -20,11 +20,15 @@ export default function Photos() {
             <img src="photos/2026%20Pictures/PXL_20260411_190957192.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_190907928.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_190719252.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-
+              
+            <img src="photos/2026%20Pictures/IMG_7051.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7052.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1509.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1508.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1507.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1506.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7037.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+              
             <img src="photos/2026%20Pictures/IMG_0871.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_0870.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_0869.jpg" className='h-60' alt="DECAGON 2026 Photo" />
