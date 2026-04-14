@@ -12,31 +12,64 @@ export default function Rounds() {
                 </ul>
                 <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
             </div>
-            {/* <hr className="border border-slate-700 my-2" />
+             <hr className="border border-slate-700 my-2" />
+             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>2026 Winners</h1>
+            <div>
+                <h2 className="text-lg italic"> OVERALL Individual Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Lucas He</li>
+                    <li>Daniel Li</li>
+                    <li>Ryan Huan</li>
+                </ol>
+            </div>
             <div>
                 <h2 className="text-lg italic"> Algebra Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Leo Su</li>
-                    <li>Jayden Tom</li>
-                    <li>Donald Zhuang</li>
+                    <li>Max Yu</li>
+                    <li>Lucas He</li>
+                    <li>Daniel Li</li>
                 </ol>
             </div>
             <div>
                 <h2 className="text-lg italic"> Geometry Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Andrew Zhong</li>
-                    <li>Marco Gomes</li>
-                    <li>Andrew Ying</li>
+                    <li>Phi Huynh</li>
+                    <li>Lucas He</li>
+                    <li>Colin Hager</li>
                 </ol>
             </div>
             <div>
                 <h2 className="text-lg italic"> Combinatorics Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Leo Su</li>
-                    <li>Donald Zhuang</li>
-                    <li>Bowen Ren</li>
+                    <li>Sophia Hua</li>
+                    <li>Daniel Li</li>
+                    <li>Andy Yue</li>
                 </ol>
-            </div> */}
+            </div>
+            <div>
+                <h2 className="text-lg italic"> General Round Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Anna Hao</li>
+                    <li>Ryan Huan</li>
+                    <li>Aaron Hua</li>
+                </ol>
+            </div>
+            <div>
+                <h2 className="text-lg italic"> GUTS Round Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Aarush Rajesh Kumar, Sam Lee, Evan Tan</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                </ol>
+            </div>
+            <div>
+                <h2 className="text-lg italic"> Team Round Winners </h2>
+                <ol className='list-decimal list-inside my-2'>
+                    <li>Sophia Hua, Aaron Hua, Sherry Wei</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                </ol>
+            </div>
         </div>
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
             <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Team Round</h1>
