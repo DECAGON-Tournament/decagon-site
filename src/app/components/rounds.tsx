@@ -45,17 +45,17 @@ export default function Rounds() {
             <div>
                 <h2 className="text-lg italic"> GUTS Round Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Aarush Rajesh Kumar, Sam Lee, Evan Tan</li>
-                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
                     <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Aarush Rajesh Kumar, Sam Lee, Evan Tan</li>
                 </ol>
             </div>
             <div>
                 <h2 className="text-lg italic"> Team Round Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Sophia Hua, Aaron Hua, Sherry Wei</li>
-                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
                     <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Sophia Hua, Aaron Hua, Sherry Wei</li>
                 </ol>
             </div>
         </div>
@@ -70,7 +70,7 @@ export default function Rounds() {
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>
                 </ul>
-                <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
+                <p>Each test will be 10 questions long. Competitors will have 45 minutes to complete each test.</p>
             </div>
              
         </div>
@@ -81,7 +81,7 @@ export default function Rounds() {
                     Teams of up to 4 will take the team test.
                     Competitors may form prearranged teams.
                     Those without teammates will be put in a team.
-                    The test will be 10 questions and 30 minutes long.
+                    The test will be 10 questions and 45 minutes long.
                     The team score will be calculated by adding twice the team round score to four times the average score on all tests of all members (as some teams have fewer than 4 people).
                 </p>
             </div>
