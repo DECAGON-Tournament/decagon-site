@@ -69,7 +69,7 @@ const Archive = () => {
                         <p className='text-slate-300 mt-2'>
                             {[
                                 "Sanjay Mavalli", "Caleb Lease", "Luke Gannon", "Joshua Kim",
-                                "Alex Chen", "Jeffrey Wu", "Steven Wang"
+                                "Alex Chen", "Jeffrey Wu", "Steven Wang", "Riya Gangabathina"
                             ].join(', ')}
                         </p>
                     </div>
