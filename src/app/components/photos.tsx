@@ -12,7 +12,7 @@ export default function Photos() {
           <div className="flex flex-row flex-wrap items-center p-4 gap-8">
 
             <img src="photos/2026%20Pictures/IMG_7051.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-            <img src="photos/2026%20Pictures/IMG_7052.jpg" className='h-60' alt="DECAGON 2026 Photo" 
+            <img src="photos/2026%20Pictures/IMG_7052.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             
             <img src="photos/2026%20Pictures/PXL_20260411_190409213.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/PXL_20260411_185550108.jpg" className='h-60' alt="DECAGON 2026 Photo" />
