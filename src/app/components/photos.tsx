@@ -30,7 +30,6 @@ export default function Photos() {
             
             <img src="photos/2026%20Pictures/IMG_1509.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1508.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-            <img src="photos/2026%20Pictures/IMG_1507.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_1506.jpg" className='h-60' alt="DECAGON 2026 Photo" />
             <img src="photos/2026%20Pictures/IMG_7037.jpg" className='h-60' alt="DECAGON 2026 Photo" />
               
