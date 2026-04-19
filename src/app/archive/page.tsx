@@ -69,7 +69,7 @@ const Archive = () => {
                         <p className='text-slate-300 mt-2'>
                             {[
                                 "Sanjay Mavalli", "Caleb Lease", "Luke Gannon", "Joshua Kim",
-                                "Alex Chen", "Jeffrey Wu", "Steven Wang"
+                                "Alex Chen", "Jeffrey Wu", "Steven Wang", "Riya Gangabathina"
                             ].join(', ')}
                         </p>
                     </div>
@@ -112,32 +112,36 @@ const Archive = () => {
                         <h1 className={`font-mono text-lg`}>2026</h1>
                     </div>
                     <div className="flex flex-row flex-wrap items-center p-4 gap-8">
-                        <img src="photos/2026%20Pictures/PXL_20260411_191342310.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_191258346.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_191219749.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_191039879.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190957192.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190955460.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190907928.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190719252.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190434424.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/PXL_20260411_190409213.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_1509.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_1508.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_1507.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_1506.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0871.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0870.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0869.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0868.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0867.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0866.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0865.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0864.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0863.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0861.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0860.jpg" className='h-60' alt="DECAGON 2026 Photo" />
-                        <img src="photos/2026%20Pictures/IMG_0859.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7051.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7052.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            
+            <img src="photos/2026%20Pictures/PXL_20260411_190409213.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_185550108.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_185832703.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_190041010.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+              
+            <img src="photos/2026%20Pictures/PXL_20260411_191219749.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_191039879.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_190957192.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_190907928.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/PXL_20260411_190719252.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+              
+            <img src="photos/2026%20Pictures/IMG_7056.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7053.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            
+            <img src="photos/2026%20Pictures/IMG_1509.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_1508.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_1506.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_7037.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+              
+            <img src="photos/2026%20Pictures/IMG_0871.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0870.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0869.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0868.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0867.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0866.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0865.jpg" className='h-60' alt="DECAGON 2026 Photo" />
+            <img src="photos/2026%20Pictures/IMG_0861.jpg" className='h-60' alt="DECAGON 2026 Photo" />
                     </div>
                 </div>
                 <div className="flex flex-col border-2 border-gray-600">

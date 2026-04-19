@@ -45,17 +45,17 @@ export default function Rounds() {
             <div>
                 <h2 className="text-lg italic"> GUTS Round Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Aarush Rajesh Kumar, Sam Lee, Evan Tan</li>
-                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
                     <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Aarush Rajesh Kumar, Sam Lee, Evan Tan</li>
                 </ol>
             </div>
             <div>
                 <h2 className="text-lg italic"> Team Round Winners </h2>
                 <ol className='list-decimal list-inside my-2'>
-                    <li>Sophia Hua, Aaron Hua, Sherry Wei</li>
-                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
                     <li>Lucas He, Caleb Jeng, Daniel Li, Andy Yue</li>
+                    <li>Phi Huynh, Colin Hager, Max Yu, Raymond Deng</li>
+                    <li>Sophia Hua, Aaron Hua, Sherry Wei</li>
                 </ol>
             </div>
         </div>
@@ -70,7 +70,7 @@ export default function Rounds() {
                     <li>Geometry</li>
                     <li>Probability/Combinatorics</li>
                 </ul>
-                <p>Each test will be 15 questions long. Competitors will have 50 minutes to complete each test.</p>
+                <p>Each test will be 10 questions long. Competitors will have 45 minutes to complete each test.</p>
             </div>
              
         </div>
@@ -81,7 +81,7 @@ export default function Rounds() {
                     Teams of up to 4 will take the team test.
                     Competitors may form prearranged teams.
                     Those without teammates will be put in a team.
-                    The test will be 10 questions and 30 minutes long.
+                    The test will be 10 questions and 45 minutes long.
                     The team score will be calculated by adding twice the team round score to four times the average score on all tests of all members (as some teams have fewer than 4 people).
                 </p>
             </div>
@@ -106,10 +106,10 @@ export default function Rounds() {
         </div>
 
         <div className='bg-slate-900 p-4 rounded-md border-2 border-slate-800 xl:flex-grow xl:basis-0'>
-            <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Theme Round</h1>
+            <h1 className={`font-mono text-lg text-sky-300 mb-4 font-bold`}>Guts Round</h1>
             <div className='text-slate-200'>
                 <p>
-                    The theme round is a more fun and casual round, and this year&apos;s theme will be revealed at the event.
+                    The guts round is a 45-minute team round with the same teams as the team round. Teams will work on 6 sets of increasingly difficult problems with 4 problems per set with one set of estimation at the end. At the starting signal, each team sends a runner to an assigned problem station to pick up copies of the first set of problems for each team member. As soon as a team has answers for one problem set, the runner may bring the answers to the problem station and pick up the next set. The guts round will have a scoreboard of the teams updated in real time.
                 </p>
             </div>
             {/* <hr className="border border-slate-700 my-2" />
