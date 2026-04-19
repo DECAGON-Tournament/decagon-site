@@ -31,17 +31,17 @@ export default function Sponsors() {
           <a href="https://www.idtech.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/idtech.png" className='h-24' alt="iD Tech Logo" />
           </a>
+          <a href="https://www.mathworks.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
+            <img src="sponsors/mathworks.png" className='h-24' alt="Mathworks Logo" />
+          </a>
           {/*
           <a href="https://www.fiverings.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/fiverings.png" className='h-24' alt="Five Rings Logo" />
           </a>
-          <a href="https://www.mathworks.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
-            <img src="sponsors/mathworks.png" className='h-24' alt="Mathworks Logo" />
-          </a>
-          */}
           <a href="https://www.chspyoneers.com/" className="bg-slate-500 rounded-lg p-4" target='_blank'>
             <img src="sponsors/pyoneers.png" className='h-24' alt="Pyoneers Logo" />
           </a>
+          */}
           <p className="text-lg">
             Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="Decagon_2026_Prospectus.pdf" download="decagon_2026_prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
           </p>
