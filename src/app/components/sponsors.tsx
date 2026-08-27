@@ -43,7 +43,7 @@ export default function Sponsors() {
           </a>
           */}
           <p className="text-lg">
-            Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="DECAGON_2027_Prospectus.pdf" download="DECAGON_2027_Prospectus" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
+            Interested in sponsoring us? Take a look at our <a className="link text-sky-50" href="DECAGON_2027_Prospectus.pdf" target="_blank" rel="noopener noreferrer">prospectus</a> and email us at <a className="link text-sky-50" href="mailto:decagontournament@gmail.com" target="_blank" rel="noopener noreferrer">decagontournament@gmail.com</a>!
           </p>
         </div>
       </div>
