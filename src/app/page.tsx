@@ -7,6 +7,7 @@ import Schedule from './components/schedule'
 import Sponsors from './components/sponsors'
 import Photos from './components/photos'
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black">
